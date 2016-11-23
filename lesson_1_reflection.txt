@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It gave a direct comparison of known working code, against the one with the bug and made 
+it easier to find the error by highlighting every change that was made.    
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    
+It will make it easier to to find errors in new builds as, presumably, the 
+older versions would have been working. This can result in faster debugging.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    
+Having an automatic save prevents the possible problem of user error and 
+helps safeguard against unexpected power outages, but, having to choose
+the right time allows the programmer to choose meaningful commits.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    
+Tracking the status of all the files in the repository at the time of a commit, 
+ensures that it "safe" for the user to make changes anywhere in project without
+having to worry about remembering which files the changes were specfically made in.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    
+Git log shows the commit history and used in conjunction with git diff, it
+allows the programmer to check the history of changes throughout the project.
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    
+By removing the fear of testing. You are able to experiment without worrying 
+about introducing bugs that may be hard to track. Every logical commit, if 
+tested before hand, gives you a safety net.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    
+Experimentation in projects that are currently causing me problems.

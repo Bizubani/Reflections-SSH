@@ -20,10 +20,21 @@ can ensure that the changes are added and commited in a thoughtful way.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+In cases where experimentation is necessary, it can be accomplished without
+breaking the production code using a branch to test the feature(s). 
+
 How do the diagrams help you visualize the branch structure?
+
+It gives a pictoral view of the history of commits, making it easy to see 
+where branches originated and trace the history of the project.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When two branches are merged togehter, the result is that branch name of the
+currently checked out branch is kept as the branch id. The commits for both 
+branches are shown, chronologically. 
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+

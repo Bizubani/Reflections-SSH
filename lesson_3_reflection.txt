@@ -28,3 +28,12 @@ manually go through the documents and find the changes. It's a much simplier pro
 collaborate using the tools and resources provided by git and git hub. 
 The only benefit to not using git is the time saved, not spent practicing and learning
 git.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes to a branch other than master is beneficial when working in a collaborative environment, or when
+testing out and experimentary feature. When working in a group, working outside the master branch facilitates
+the usage of pull requests. This allows the other group memebers to lookover changes before updating the remote master.
+This also allows all the memebers to have access to the same master on all computers that are being used.
+Working directly on the master branch is easier when you're a lone wolf programmer, like me, and aren't worried
+about having to keep other people in the loop. 

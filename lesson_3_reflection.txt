@@ -19,3 +19,12 @@ What is the benefit of having a copy of the last known state of the remote store
 It helps act as a guide. Instructing as to whether the two repositories are in the same
 state, or which one is ahead of the other. It would be useful for short periods spent
 offline. It can be thrown off however, when collaborating.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without the aid of github, collaboration would entail a lot of copying and pasting code via emails.
+It would lack the beneficial tools such as git diff, meaning that the programmer would have to 
+manually go through the documents and find the changes. It's a much simplier process to 
+collaborate using the tools and resources provided by git and git hub. 
+The only benefit to not using git is the time saved, not spent practicing and learning
+git.
